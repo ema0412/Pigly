@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+<<<<<<< HEAD
 use App\Http\AuthRequest;
 use App\Models\WeightLog;
 use App\Models\WeightTarget;
@@ -123,5 +124,14 @@ class AuthController extends Controller
     public function postCreate()
     {
         return view('postCreate');
+=======
+use Illuminate\Http\Request;
+
+class AuthController extends Controller
+{
+    public function logs()
+    {
+        return view('logs');
+>>>>>>> origin/main
     }
 }

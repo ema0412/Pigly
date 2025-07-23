@@ -3,7 +3,10 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\DB;
+=======
+>>>>>>> origin/main
 
 class UsersTableSeeder extends Seeder
 {
@@ -14,6 +17,7 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
+<<<<<<< HEAD
         DB::table('users')->insert([
             [
                 'name' => '山田 太郎',
@@ -21,5 +25,8 @@ class UsersTableSeeder extends Seeder
                 'password' => 'coachtech1106',
             ],
         ]);
+=======
+        //
+>>>>>>> origin/main
     }
 }

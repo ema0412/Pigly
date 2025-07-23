@@ -2,6 +2,10 @@
 
 namespace App\Models;
 
+<<<<<<< HEAD
+=======
+use Illuminate\Contracts\Auth\MustVerifyEmail;
+>>>>>>> origin/main
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
@@ -17,7 +21,11 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
+<<<<<<< HEAD
         
+=======
+        'name',
+>>>>>>> origin/main
         'email',
         'password',
     ];

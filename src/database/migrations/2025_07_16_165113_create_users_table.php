@@ -32,7 +32,10 @@ class CreateUsersTable extends Migration
      */
     public function down()
     {
+<<<<<<< HEAD
         Schema::dropIfExists('weight_targets');
+=======
+>>>>>>> origin/main
         Schema::dropIfExists('users');
     }
 }

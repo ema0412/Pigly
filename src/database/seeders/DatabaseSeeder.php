@@ -13,8 +13,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+<<<<<<< HEAD
         $this->call(WeightTargetsTableSeeder::class);
         $this->call(WeightLogsTableSeeder::class);
         $this->call(UsersTableSeeder::class);
+=======
+        $this->call(WeightTargetTableSeeder::class);
+        $this->call(WeightLogsTableSeeder::class);
+>>>>>>> origin/main
     }
 }
